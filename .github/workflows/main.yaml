@@ -13,6 +13,7 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: build
         FOLDER: api
         BUILD_SCRIPT: python3 build.py
