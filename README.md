@@ -3,7 +3,7 @@
 This is the keyhouse repository required by SDSLabs Watchdog. This repository contains all the public keys of the members and the access right they have.
 
 ## How to use?
-
+ - List of servers is in `config.json`
  - Public keys are stored in `data/keys` file.
  - To add your keys to keyhouse, you must create a PR. And wait for some admin to review it.
  - To gain access to any server, ask any admin.
